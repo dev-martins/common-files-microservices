@@ -1,0 +1,19 @@
+{
+    "name": "dev-martins/common-files-microservices",
+    "description": "Generates basic files for generating microservices",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DevMartins\\CommonFilesMicroservices\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claudio Martins",
+            "email": "claudio.dev.martins@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
