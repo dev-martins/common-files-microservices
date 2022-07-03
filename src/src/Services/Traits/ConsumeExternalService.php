@@ -23,6 +23,6 @@ trait ConsumeExternalService
         array $headers = []
     ) {
         return $this->headers($headers)
-                    ->$method($this->url . $endPoint,  $formParams);
+            ->$method($this->url . $endPoint,  $formParams);
     }
 }
