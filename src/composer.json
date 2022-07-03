@@ -1,6 +1,11 @@
 {
     "name": "dev-martins/common-files-microservices",
     "description": "Generates basic files for generating microservices",
+    "keywords": [
+        "microservices",
+        "common-files",
+        "microservice laravel"
+    ],
     "type": "library",
     "license": "MIT",
     "autoload": {
@@ -8,12 +13,12 @@
             "DevMartins\\CommonFilesMicroservices\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Claudio Martins",
-            "email": "claudio.dev.martins@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Claudio Martins",
+        "email": "claudio.dev.martins@gmail.com"
+    }],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.1 || ^8.0"
+    }
 }
