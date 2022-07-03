@@ -1,6 +1,6 @@
 <?php
 
-namespace DevMartins\MicroservicesCommon\Services\Traits;
+namespace DevMartins\CommonFilesMicroservices\Services\Traits;
 
 use Illuminate\Support\Facades\Http;
 
