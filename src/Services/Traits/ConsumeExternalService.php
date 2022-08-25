@@ -13,7 +13,7 @@ trait ConsumeExternalService
     {
         $headers = array_merge($headers, [
             'Accept' => 'application/json',
-            'Authorization' => $this->token,
+            'Authorization' => isset($this->token) ? $this->token : ''
         ]);
         
         return $headers;
