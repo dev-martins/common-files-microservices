@@ -38,7 +38,7 @@ trait ConsumeExternalService
             ->withHeaders($this->headers($headers))
             ->withOptions(
                 [
-                    'connect_timeout'     => config('curl.time.connect_timeout'),
+                    'connect_timeout'   => config('curl.time.connect_timeout'),
                     'read_timeout'      => config('curl.time.read_timeout'),
                     'timeout'           => config('curl.time.timeout'),
                 ]
